@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore expert insights on lead tracking, sales automation, and predictive analytics. Learn strategies to transform your sales process and accelerate revenue growth.">
+    <meta name="keywords" content="lead tracking blog, sales automation tips, lead nurturing strategies, sales growth insights, predictive analytics">
+    <meta name="author" content="Upflex Digital">
+    <meta property="og:title" content="GrowthHub Blog | Lead Strategy & Sales Automation Insights">
+    <meta property="og:description" content="Expert articles on behavioral lead tracking, sales automation, and revenue growth strategies for modern sales teams.">
+    <meta property="og:type" content="website">
+    <title>GrowthHub Blog | Lead Strategy & Sales Automation Insights</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .gradient-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .gradient-button:hover {
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            transform: scale(1.05);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15);
+        }
+        
+        .feature-icon {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-icon:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 40px rgba(102, 126, 234, 0.2);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .faq-answer.expanded {
+            max-height: 500px;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .nav-link {
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .fade-in-up {
+            animation: fadeInUp 0.6s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-blur-md border-b border-gray-800">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="https://UpflexDigital.github.io/quit-guessing-start-growing-2025-11-12-sjyyy" class="flex items-center space-x-2 hover:opacity-80 transition-opacity duration-300">
+                <div class="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
+                    <i class="fas fa-rocket text-white"></i>
+                </div>
+                <span class="text-xl font-bold text-white hidden sm:inline">GrowthHub</span>
+            </a>
+
+            <!-- Back Link -->
+            <a href="https://UpflexDigital.github.io/quit-guessing-start-growing-2025-11-12-sjyyy" class="nav-link text-gray-300 hover:text-white font-medium">
+                ← Back
+            </a>
+        </nav>
+    </header>
+
+    <!-- Blog Header Section -->
+    <section class="relative py-20 sm:py-24 lg:py-32 overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute inset-0 bg-gradient-to-br from-purple-900 via-gray-900 to-gray-900 opacity-50"></div>
+        <div class="absolute top-20 right-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
+        <div class="absolute bottom-0 left-10 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style="animation-delay: 2s;"></div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center fade-in-up">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 tracking-tight">
+                    Our <span class="gradient-text">Blog</span>
+                </h1>
+                
+                <p class="text-lg sm:text-xl text-gray-300 leading-relaxed mb-8 max-w-2xl mx-auto">
+                    Discover expert insights, actionable strategies, and industry trends to transform your lead management, accelerate sales cycles, and drive predictable revenue growth.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Purpose Section -->
+    <section class="py-16 sm:py-20 lg:py-24 bg-gray-800 bg-opacity-30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Purpose 1 -->
+                <div class="card-hover bg-gray-800 bg-opacity-50 border border-gray-700 rounded-2xl p-8 hover:border-purple-500 hover:border-opacity-50 transition-all duration-300">
+                    <div class="w-14 h-14 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Lead Tracking Mastery</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Learn proven techniques for implementing behavioral lead tracking, identifying buying signals, and understanding prospect intent across all touchpoints.
+                    </p>
+                </div>
+
+                <!-- Purpose 2 -->
+                <div class="card-hover bg-gray-800 bg-opacity-50 border border-gray-700 rounded-2xl p-8 hover:border-purple-500 hover:border-opacity-50 transition-all duration-300">
+                    <div class="w-14 h-14 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Sales Automation Strategies</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Explore best practices for automating nurturing sequences, optimizing workflows, and creating personalized customer experiences at scale.
+                    </p>
+                </div>
+
+                <!-- Purpose 3 -->
+                <div class="card-hover bg-gray-800 bg-opacity-50 border border-gray-700 rounded-2xl p-8 hover:border-purple-500 hover:border-opacity-50 transition-all duration-300">
+                    <div class="w-14 h-14 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-6 shadow-lg">
+                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Revenue Growth Insights</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Discover data-driven strategies to shorten sales cycles, improve lead quality, achieve consistent growth, and build predictable revenue pipelines.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post -->
+    <section class="py-20 sm:py-24 lg:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 tracking-tight">
+                    Featured <span class="gradient-text">Article</span>
+                </h2>
+            </div>
+
+            <!-- Featured Post Card -->
+            <div class="card-hover bg-gray-800 bg-opacity-50 border border-gray-700 rounded-2xl p-8 sm:p-12 hover:border-purple-500 hover:border-opacity-50 transition-all duration-300 overflow-hidden">
+                <div class="flex flex-col lg:flex-row gap-12">
+                    <!-- Content -->
+                    <div class="flex-1">
+                        <div class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 bg-opacity-20 border border-purple-500 border-opacity-30 rounded-full px-4 py-2 mb-6">
+                            <span class="text-sm font-semibold text-purple-300">Featured</span>
+                        </div>
+
+                        <h3 class="text-3xl sm:text-4xl font-bold mb-4 leading-tight">
+                            The Complete Guide to Behavioral Lead Tracking: Identify Buying Signals and Convert More Prospects
+                        </h3>
+
+                        <div class="flex items-center gap-4 mb-8 text-gray-400">
+                            <span class="text-sm">
+                                <i class="fas fa-calendar-alt mr-2 text-purple-400"></i>
+                                November 12, 2025
+                            </span>
+                            <span class="text-sm">
+                                <i class="fas fa-clock mr-2 text-purple-400"></i>
+                                8 min read
+                            </span>
+                        </div>
+
+                        <div class="prose prose-invert max-w-none mb-8">
+                            <p class="text-gray-300 leading-relaxed mb-6">
+                                <strong>Behavioral Lead Tracking: Your Competitive Advantage</strong>
+                            </p>
+                            <p class="text-gray-300 leading-relaxed mb-6">
+                                Behavioral lead tracking transforms sales by monitoring prospect actions across all touchpoints, revealing genuine buying intent beyond traditional demographics. By capturing website visits, email engagement, content downloads, and demo requests, sales teams identify high-probability opportunities and engage at optimal moments.
+                            </p>
+                            <p class="text-gray-300 leading-relaxed mb-6">
+                                This data-driven approach eliminates guesswork, shortens sales cycles by 25-40%, and dramatically improves conversion rates. Implementation requires defining behavioral scoring models, integrating tracking infrastructure into your CRM, and training your sales team.
+                            </p>
+                            <p class="text-gray-300 leading-relaxed">
+                                Organizations mastering behavioral intelligence consistently outperform competitors, achieving predictable revenue growth and sustainable competitive advantages in today's competitive marketplace.
+                            </p>
+                        </div>
+
+                        <a href="https://UpflexDigital.github.io/quit-guessing-start-growing-2025-11-12-sjyyy/blog/the-complete-guide-to-behavioral-lead-tracking-ide.html" class="inline-flex items-center gradient-button text-white font-bold py-3 px-8 rounded-full hover:shadow-lg transition-all duration-300">
+                            Read Full Article
+                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- Visual Element -->
+                    <div class="hidden lg:flex items-center justify-center flex-shrink-0">
+                        <div class="relative w-full h-80 bg-gradient-to-br from-purple-900 to-gray-800 rounded-2xl overflow-hidden shadow-2xl">
+                            <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent opacity-50"></div>
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="text-center">
+                                    <div class="w-16 h-16 mx-auto mb-6 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg">
+                                        <i class="fas fa-chart-line text-white text-2xl"></i>
+                                    </div>
+                                    <p class="text-gray-300 mb-2 font-semibold text-sm">Behavioral Tracking</p>
+                                    <p class="text-3xl font-bold gradient-text mb-2">25-40%</p>
+                                    <p class="text-xs text-gray-400">Sales Cycle Reduction</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Articles Section -->
+    <section class="py-20 sm:py-24 lg:py-32 bg-gray-800 bg-opacity-30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 tracking-tight">
+                    More Articles <span class="gradient-text">Coming Soon</span>
+                </h2>
+                <p class="text-lg text-gray-300 max-w-3xl">
+                    We're continuously publishing in-depth guides, case studies, and industry insights to help you master lead management and accelerate your revenue growth.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Placeholder 1 -->
+                <div class="card-hover bg-gray-800 bg-opacity-50 border border-gray-700 border-dashed rounded-2xl p-8 hover:border-purple-500 hover:border-opacity-50 transition-all duration-300 flex items-center justify-center min-h-96">
+                    <div class="text-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-purple-500 to-pink-500 bg-opacity-20 rounded-full flex items-center justify-center">
+                            <i class="fas fa-pen-fancy text-purple-400 text-2xl"></i>
+                        </div>
+                        <p class="text-gray-400 font-semibold">New Article</p>
+                        <p class="text-gray-500 text-sm mt-2">Coming Soon</p>
+                    </div>
+                </div>
+
+                <!-- Placeholder 2 -->
+                <div class="card-hover bg-gray-800 bg-opacity-50 border border-gray-700 border-dashed rounded-2xl p-8 hover:border-purple-500 hover:border-opacity-50 transition-all duration-300 flex items-center justify-center min-h-96">
+                    <div class="text-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-purple-500 to-pink-500 bg-opacity-20 rounded-full flex items-center justify-center">
+                            <i class="fas fa-pen-fancy text-purple-400 text-2xl"></i>
+                        </div>
+                        <p class="text-gray-400 font-semibold">New Article</p>
+                        <p class="text-gray-500 text-sm mt-2">Coming Soon</p>
+                    </div>
+                </div>
+
+                <!-- Placeholder 3 -->
+                <div class="card-hover bg-gray-800 bg-opacity-50 border border-gray-700 border-dashed rounded-2xl p-8 hover:border-purple-500 hover:border-opacity-50 transition-all duration-300 flex items-center justify-center min-h-96">
+                    <div class="text-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-purple-500 to-pink-500 bg-opacity-20 rounded-full flex items-center justify-center">
+                            <i class="fas fa-pen-fancy text-purple-400 text-2xl"></i>
+                        </div>
+                        <p class="text-gray-400 font-semibold">New Article</p>
+                        <p class="text-gray-500 text-sm mt-2">Coming Soon</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <p class="text-gray-300 mb-6">
+                    Subscribe to our newsletter to get notified when new articles are published
+                </p>
+                <div class="max-w-md mx-auto flex gap-4">
+                    <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 bg-gray-800 border border-gray-700 rounded-full text-white placeholder-gray-500 focus:outline-none focus:border-purple-500 transition-colors duration-300">
+                    <button class="gradient-button text-white font-bold py-3 px-8 rounded-full hover:shadow-lg transition-all duration-300">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-20 sm:py-24 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-purple-900 via-gray-900 to-gray-900 opacity-50"></div>
+        <div class="absolute inset-0 bg-cover bg-center opacity-10" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop');"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="inline-block bg-gradient-to-r from-purple-500 to-pink-500 bg-opacity-20 border border-purple-500 border-opacity-30 rounded-full px-4 py-2 mb-6">
+                <span class="text-sm font-semibold text-purple-300">🚀 Ready to Transform Your Sales?</span>
+            </div>
+            
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 tracking-tight max-w-3xl mx-auto">
+                Apply These Strategies to Your Business Today
+            </h2>
+            
+            <p class="text-lg sm:text-xl text-gray-300 leading-relaxed mb-10 max-w-2xl mx-auto">
+                Put these insights into action with GrowthHub's intelligent lead tracking and automation platform. Start your 14-day free trial today.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="https://apt.upflexdigital.com/book-with-me-page" target="_blank" rel="noopener noreferrer" class="gradient-button text-white font-bold py-4 px-8 rounded-full hover:shadow-xl transition-all duration-300 w-full sm:w-auto">
+                    Start Free Trial
+                    <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+                <a href="https://UpflexDigital.github.io/quit-guessing-start-growing-2025-11-12-sjyyy" class="border-2 border-purple-500 text-purple-300 hover:text-white hover:border-pink-500 font-bold py-4 px-8 rounded-full transition-all duration-300 w-full sm:w-auto text-center">
+                    Back to Home
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 bg-opacity-50 border-t border-gray-700 py-16 sm:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Brand Column -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-rocket text-white"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">GrowthHub</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Transform your lead strategy from reactive to predictive with intelligent behavioral tracking and automated nurturing.
+                    </p>
+                </div>
+
+                <!-- Product Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Product</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://UpflexDigital.github.io/quit-guessing-start-growing-2025-11-12-sjyyy#features" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Features</a></li>
+                        <li><a href="https://UpflexDigital.github.io/quit-guessing-start-growing-2025-11-12-sjyyy#benefits" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Benefits</a></li>
+                        <li><a href="https://UpflexDigital.github.io/quit-guessing-start-growing-2025-11-12-sjyyy#testimonials" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Testimonials</a></li>
+                        <li><a href="https://UpflexDigital.github.io/quit-guessing-start-growing-2025-11-12-sjyyy#faq" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="https://UpflexDigital.github.io/quit-guessing-start-growing-2025-11-12-sjyyy#about" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Blog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact & Social -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Connect</h4>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-gray-400 text-sm mb-1">Email</p>
+                            <a href="mailto:technoeg2723@gmail.com" class="text-purple-400 hover:text-pink-400 transition-colors duration-300 text-sm font-semibold">technoeg2723@gmail.com</a>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 bg-gray-700 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors duration-300" aria-label="Facebook">
+                                <i class="fab fa-facebook-f text-white"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-gray-700 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors duration-300" aria-label="Twitter">
+                                <i class="fab fa-twitter text-white"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-gray-700 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors duration-300" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in text-white"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-gray-700 hover:bg-purple-600 rounded-full flex items-center justify-center transition-colors duration-300" aria-label="Instagram">
+                                <i class="fab fa-instagram text-white"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-700 pt-8">
+                <div class="flex flex-col sm:flex-row justify-between items-center">
+                    <p class="text-gray-400 text-sm mb-4 sm:mb-0">
+                        &copy; 2025 GrowthHub. All rights reserved. Powered by Upflex Digital.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Privacy</a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Terms</a>
+                        <a href="#" class="text-gray-400 hover:text-purple-400 transition-colors duration-300 text-sm">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
